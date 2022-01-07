@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diseases",
+  "info": {
+    "name": "disease",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "thumbnail": {
+      "type": "string"
+    },
+    "reference": {
+      "type": "json"
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "cause": {
+      "type": "richtext"
+    },
+    "symptom": {
+      "type": "richtext"
+    },
+    "risk_factor": {
+      "type": "richtext"
+    },
+    "treatment": {
+      "type": "richtext"
+    },
+    "diagnosis": {
+      "type": "richtext"
+    },
+    "prevention": {
+      "type": "richtext"
+    },
+    "synonym": {
+      "type": "json"
+    },
+    "severity": {
+      "type": "richtext"
+    },
+    "update_by": {
+      "type": "enumeration",
+      "enum": [
+        "Nam",
+        "Minh",
+        "Vu"
+      ]
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "relations",
+  "info": {
+    "name": "relations"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "has"
+      ]
+    },
+    "disease": {
+      "model": "disease"
+    },
+    "symptom": {
+      "model": "symptoms"
+    }
+  }
+}

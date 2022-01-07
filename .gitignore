@@ -112,8 +112,3 @@ exports
 *.cache
 build
 .strapi-updater.json
-
-api/disease
-api/relations
-api/symptoms
-api/vinmec-raw
