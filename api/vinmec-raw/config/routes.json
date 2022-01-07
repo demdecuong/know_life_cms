@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/vinmec-raws",
+      "handler": "vinmec-raw.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vinmec-raws/count",
+      "handler": "vinmec-raw.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/vinmec-raws/:id",
+      "handler": "vinmec-raw.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/vinmec-raws",
+      "handler": "vinmec-raw.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/vinmec-raws/:id",
+      "handler": "vinmec-raw.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/vinmec-raws/:id",
+      "handler": "vinmec-raw.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
