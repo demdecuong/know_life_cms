@@ -57,6 +57,9 @@
         "Minh",
         "Vu"
       ]
+    },
+    "other_info": {
+      "type": "richtext"
     }
   }
 }
