@@ -13,7 +13,8 @@
   "pluginOptions": {},
   "attributes": {
     "name": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "overview": {
       "type": "richtext"
@@ -43,7 +44,12 @@
       "type": "json"
     },
     "update_by": {
-      "type": "string"
+      "type": "enumeration",
+      "enum": [
+        "Nam",
+        "Minh",
+        "Vu"
+      ]
     }
   }
 }

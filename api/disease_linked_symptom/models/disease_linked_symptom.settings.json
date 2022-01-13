@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "disease_linked_symptom",
+  "info": {
+    "name": "disease_linked_symptom",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "has_symptom"
+      ],
+      "default": "has_symptom",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "update_by": {
+      "type": "enumeration",
+      "enum": [
+        "Nam",
+        "Minh",
+        "Vu"
+      ]
+    },
+    "from": {
+      "model": "disease"
+    },
+    "to": {
+      "collection": "symptoms"
+    }
+  }
+}
