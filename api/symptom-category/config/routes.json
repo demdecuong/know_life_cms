@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/symptom-categories",
+      "handler": "symptom-category.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/symptom-categories/count",
+      "handler": "symptom-category.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/symptom-categories/:id",
+      "handler": "symptom-category.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/symptom-categories",
+      "handler": "symptom-category.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/symptom-categories/:id",
+      "handler": "symptom-category.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/symptom-categories/:id",
+      "handler": "symptom-category.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
