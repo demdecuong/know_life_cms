@@ -19,27 +19,6 @@
     "overview": {
       "type": "richtext"
     },
-    "pathophysiology": {
-      "type": "richtext"
-    },
-    "treatment": {
-      "type": "richtext"
-    },
-    "reference": {
-      "type": "json"
-    },
-    "evaluation": {
-      "type": "richtext"
-    },
-    "cause": {
-      "type": "richtext"
-    },
-    "key_point": {
-      "type": "richtext"
-    },
-    "geriatrics_essentials": {
-      "type": "richtext"
-    },
     "synonym": {
       "type": "json"
     },
@@ -50,9 +29,6 @@
         "Minh",
         "Vu"
       ]
-    },
-    "symptom_category": {
-      "model": "symptom-category"
     }
   }
 }
