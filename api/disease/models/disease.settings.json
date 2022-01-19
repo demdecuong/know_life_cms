@@ -60,6 +60,9 @@
     },
     "other_info": {
       "type": "richtext"
+    },
+    "specialties": {
+      "collection": "specialty"
     }
   }
 }
