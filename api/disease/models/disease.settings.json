@@ -61,8 +61,11 @@
     "other_info": {
       "type": "richtext"
     },
-    "specialties": {
+    "health_specialties": {
       "collection": "specialty"
+    },
+    "has_symptoms": {
+      "collection": "symptoms"
     }
   }
 }

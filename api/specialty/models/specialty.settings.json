@@ -22,6 +22,9 @@
     },
     "key": {
       "type": "string"
+    },
+    "subclass_of": {
+      "model": "specialty"
     }
   }
 }
