@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "quantitatives",
+  "info": {
+    "name": "quantitative",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "low",
+        "normal",
+        "near_high",
+        "high",
+        "very_high",
+        "good",
+        "positive",
+        "negative"
+      ]
+    },
+    "min_value": {
+      "type": "float"
+    },
+    "max_value": {
+      "type": "float"
+    },
+    "unit": {
+      "type": "enumeration",
+      "enum": [
+        "G_L",
+        "T_L",
+        "mmol_L",
+        "umol_L",
+        "U_L",
+        "cell_uL",
+        "g_L",
+        "mg_L",
+        "mg_mmol",
+        "COI",
+        "IU_L"
+      ]
+    },
+    "note": {
+      "type": "richtext"
+    },
+    "cause": {
+      "type": "richtext"
+    },
+    "recommend": {
+      "type": "richtext"
+    },
+    "relevant_diseases": {
+      "collection": "disease"
+    },
+    "references": {
+      "type": "json"
+    }
+  }
+}

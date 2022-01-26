@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/quantitatives",
+      "handler": "quantitative.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quantitatives/count",
+      "handler": "quantitative.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/quantitatives/:id",
+      "handler": "quantitative.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/quantitatives",
+      "handler": "quantitative.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/quantitatives/:id",
+      "handler": "quantitative.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/quantitatives/:id",
+      "handler": "quantitative.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

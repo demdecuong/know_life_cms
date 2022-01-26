@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "medical_tests",
+  "info": {
+    "name": "medical_test",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "overview": {
+      "type": "richtext"
+    },
+    "quantitatives": {
+      "collection": "quantitative"
+    },
+    "references": {
+      "type": "json"
+    },
+    "update_by": {
+      "type": "enumeration",
+      "enum": [
+        "Nam",
+        "Minh",
+        "Vu"
+      ]
+    }
+  }
+}

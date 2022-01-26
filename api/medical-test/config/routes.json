@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/medical-tests",
+      "handler": "medical-test.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medical-tests/count",
+      "handler": "medical-test.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/medical-tests/:id",
+      "handler": "medical-test.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/medical-tests",
+      "handler": "medical-test.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/medical-tests/:id",
+      "handler": "medical-test.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/medical-tests/:id",
+      "handler": "medical-test.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
