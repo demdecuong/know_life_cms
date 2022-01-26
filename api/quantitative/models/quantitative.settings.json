@@ -64,6 +64,9 @@
     },
     "references": {
       "type": "json"
+    },
+    "medical_test": {
+      "model": "medical-test"
     }
   }
 }

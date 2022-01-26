@@ -18,9 +18,6 @@
     "overview": {
       "type": "richtext"
     },
-    "quantitatives": {
-      "collection": "quantitative"
-    },
     "references": {
       "type": "json"
     },
