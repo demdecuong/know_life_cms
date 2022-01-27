@@ -47,7 +47,8 @@
         "mg_L",
         "mg_mmol",
         "COI",
-        "IU_L"
+        "IU_L",
+        "pH"
       ]
     },
     "note": {
