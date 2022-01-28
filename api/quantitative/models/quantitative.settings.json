@@ -18,14 +18,8 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "low",
         "normal",
-        "near_high",
-        "high",
-        "very_high",
-        "good",
-        "positive",
-        "negative"
+        "abnormal"
       ]
     },
     "min_value": {
@@ -68,6 +62,13 @@
     },
     "medical_test": {
       "model": "medical-test"
+    },
+    "test_result": {
+      "type": "enumeration",
+      "enum": [
+        "negative",
+        "positive"
+      ]
     }
   }
 }
